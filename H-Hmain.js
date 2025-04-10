@@ -24,7 +24,7 @@ async function loadFolders(folderPath = '') {
     }
 
     for (const item of contents) {
-      if (item.name.startsWith('H-H')) {
+      if (item.name.startsWith('H-H')||item.name === "index.html" && currentFolder === "") {
         continue;
       }
       if (item.type === 'dir') {
