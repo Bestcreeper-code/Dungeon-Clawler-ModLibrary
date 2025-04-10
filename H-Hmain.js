@@ -24,7 +24,7 @@ async function loadFolders(folderPath = '') {
     }
 
     for (const item of contents) {
-      if (item.name.startsWith('.')) {
+      if (item.name.startsWith('H-H')) {
         continue;
       }
       if (item.type === 'dir') {
