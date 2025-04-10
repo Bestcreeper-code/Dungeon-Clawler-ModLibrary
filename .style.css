@@ -1,0 +1,100 @@
+body {
+  font-family: sans-serif;
+  background: #ffffff;
+  color: #000000;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 16px;
+  padding: 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.folder {
+  background: #1067ff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.folder:hover {
+  background: #5291ff;
+  scale: 1.05;
+  box-shadow: #000000 0px 0px 10px;
+}
+
+.folder img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #1067ff;
+}
+
+.file {
+  padding: 12px;
+  background: #ffbb00;
+  border-radius: 8px;
+  margin-top: 6px;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.2s ease;
+}
+.file:hover {
+  background: #ffdd00;
+  scale: 1.05;
+  box-shadow: #000000 0px 0px 10px;
+}
+.dll {
+  background: #21c700;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 6px;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.2s ease;
+}
+.dll:hover {
+  background: #2bff00;
+  scale: 1.05;
+  box-shadow: #000000 0px 0px 10px;
+}
+.txt {
+  background: #848484;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 6px;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.2s ease;
+}
+.txt:hover {
+  background: #b7b7b7;
+  scale: 1.05;
+  box-shadow: #000000 0px 0px 10px;
+}
+.png {
+  background: #d20000;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 6px;
+  font-size: 16px;
+  text-align: center;
+  transition: 0.2s ease;
+}
+.png:hover {
+  background: #ff0000;
+  scale: 1.05;
+  box-shadow: #000000 0px 0px 10px;
+}
